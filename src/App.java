@@ -3,11 +3,11 @@ public class App {
         int[] array = { 45, 12, 33, 10, 7, 19, 28, 5, 17, 2 ,200, 100, 50, 75, 25, 150 };
         GUI gui = new GUI(array);
         gui.setVisible(true);
-        heapSort(array, gui);
-        System.out.println("Sorted array:");
-        for (int num : array) {
-            System.out.print(num + " ");
-        }
+        // heapSort(array, gui); // Remove auto-start, now triggered by button
+        // System.out.println("Sorted array:");
+        // for (int num : array) {
+        //     System.out.print(num + " ");
+        // }
     }
 
     public static void heapSort(int[] arr, GUI gui) throws InterruptedException {
